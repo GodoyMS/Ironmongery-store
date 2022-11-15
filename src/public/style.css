@@ -1,0 +1,41 @@
+
+.logo{
+    width: 60px;
+    height: 60px;
+}
+
+.navBar{
+    display:flex;
+    background-color: rgb(52, 24, 179);
+    flex-direction: row;
+    
+    
+    
+    
+
+}
+.searchBar{
+ 
+    align-items: center;
+    display: flex;
+    justify-content: center;
+     
+}
+.searchBar> div{
+    width: 50%;
+    margin:2rem ;
+}
+
+@media (max-width:800px) { /*To make my page responsive when screen is smaller than 600px*/
+   
+    .searchBar>div{
+        width:100%;
+        margin: 1rem 2rem;
+    
+    }
+
+   
+   
+    
+    
+}
